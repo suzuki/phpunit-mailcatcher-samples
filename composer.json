@@ -1,0 +1,33 @@
+{
+    "name": "suzuki/phpunit-mailcatcher-samples",
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "suzuki/phpunit-mailcatcher": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sample\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sample\\" : "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:suzuki/phpunit-mailcatcher.git"
+        }
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norio Suzuki",
+            "email": "norio.suzuki@gmail.com"
+        }
+    ]
+}
